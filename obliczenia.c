@@ -22,7 +22,7 @@ int main(){
 */
 
 float sphere_volume(float r){
-    return((4.0/3.0)*3.14*(r*r*r));
+    return((4.0/3.0)*M_PI*(r*r*r));
 }
 
 int main(){
